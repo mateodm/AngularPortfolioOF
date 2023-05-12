@@ -72,7 +72,7 @@
     }
     .contenedor:hover .centrado {
         width: 500px;
-        height: 305px;
+        height: 304px;
     }
 }
 @media only screen and (min-width: 761px) and (max-width: 1600px) {
