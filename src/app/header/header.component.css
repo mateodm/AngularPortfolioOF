@@ -52,10 +52,11 @@ header {
         width: 100vw;
     }
     .navbar {
-        height: fit-content;
+        height: 100px;
         
     }
     .logo-ap {
-        height: 12vh;
+        height: 90px;
+        margin-right: 23vw;
     }
 }

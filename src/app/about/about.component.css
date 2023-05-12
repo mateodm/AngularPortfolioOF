@@ -138,4 +138,7 @@ h2 {
         height: auto;
         margin-top: auto;
     }
+    .hr {
+        width: 100vw;
+    }
 }

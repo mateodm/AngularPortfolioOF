@@ -89,4 +89,7 @@
     .text {
         font-size: 35px;
     }
+    .hr {
+        width: 100vw;
+    }
 }
