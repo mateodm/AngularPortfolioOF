@@ -4,5 +4,6 @@ body{
  @media (max-width: 760px) {
     body {
         width: 100vw;
+        height: auto;
     }
 }

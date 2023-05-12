@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

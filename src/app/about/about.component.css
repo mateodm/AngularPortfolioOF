@@ -3,6 +3,7 @@
     display: flex;
     padding-top: 100px;
     padding-bottom: 40px;
+    margin-left: 0px;
     background-image: url("../../assets/imgimportant/banner.png");
     background-size: auto;
     width: 100.5vw;
@@ -75,6 +76,7 @@ h2 {
     height: auto;
     background-color: #252A2E;
     color: white;
+    margin-left: 0px;
 }
 .text {
     font-family: 'Righteous';
