@@ -6,7 +6,7 @@
     background-image: url("../../assets/imgimportant/banner.png");
     background-size: auto;
     width: 100.5vw;
-    height: 85vh;
+    height: auto;
     background-color: #252A2E;
 }
 .logo-desc {
@@ -134,6 +134,6 @@ h2 {
     }
     .logo-bg {
         height: auto;
-        margin-top: 80px;
+        margin-top: auto;
     }
 }

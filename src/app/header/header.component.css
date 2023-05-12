@@ -1,15 +1,15 @@
 
 header {
     background-color: #363638;
-    position: fixed;
     opacity: 1;
 }
 .navbar { 
-    height: 10vh;
+    height: 14vh;
     width: 100vw;
 }
 .navbar-nav {
     margin-left: auto;
+    margin-right: 10px;
 }
 .social-media {
     justify-content: end;
