@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+.logo-bg {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-image: url("../../assets/imgimportant/banner.png");
+    background-size: auto;
+    width: 100.5vw;
+    height: 85vh;
+    background-color: #252A2E;
+}
+.logo-desc {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    border: 4.5px solid white;
+    width: 260px;
+}
+.about {
+    display: flex;
+}
+.about .banner{
+    background-color: #252A2E;
+    opacity: 1;
+    padding: 2vh;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 42px;
+    border: solid;
+}
+.about .banner img{
+    margin-top: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+h1{
+    margin-top: 28px;
+    font-size: 40px;
+    font-family: 'Righteous';
+    font-weight: 20;
+    color: white;
+}
+h2 {
+    margin-top: 15px;
+    font-size: 22px;
+    font-family: 'Righteous';
+    font-weight: 20;
+    color: white;
+}
+.about .banner h1:hover {
+    opacity: 0.8;
+}
+.banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    width: 42px;
+    height: 30px;
+    line-height: 42px;
+    margin: 10px 15px 18px 15px;
+    font-size: 20px;
+    transition: .3s;
+}
+.icono {
+    width: 48px;
+}
+.icono:hover {
+    opacity: 0.8;
+}
+.about-title {
+    width: 102vw;
+    height: auto;
+    background-color: #252A2E;
+    color: white;
+}
+.text {
+    font-family: 'Righteous';
+    font-size: 40px;
+}
+.hr {
+    display: grid;
+    align-items: center;
+    border-color: white;
+    color: white;
+}
+.about-info {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #252A2E;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+.about-info_text {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    max-width: 62vw;
+    margin-bottom: 10px;
+}
+.education-title {
+    width: 102vw;
+    height: auto;
+    background-color: #252A2E;
+    color: white;
+}
+.education-background {
+    background-color: #252A2E;
+}
+.education-text {
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.education-img {
+    margin-right: 10px;
+}
+
+@media (max-width: 560px) {
+    .about-info_text {
+        font-size: 18px;
+        max-width: 90vw;
+        text-align: start;
+    }
+    .education-img {
+        height: 60px;
+        width: 60px;
+    }
+    .education-text{
+        text-align: center;
+        font-size: 18px;
+    }
+    .logo-bg {
+        height: auto;
+        margin-top: 80px;
+    }
+}

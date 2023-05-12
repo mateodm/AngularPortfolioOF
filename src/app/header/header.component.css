@@ -1,0 +1,66 @@
+
+header {
+    background-color: #363638;
+    position: fixed;
+    opacity: 1;
+}
+.navbar { 
+    height: 10vh;
+    width: 100vw;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.social-media {
+    justify-content: end;
+}
+.logo-ap {
+    height: 6.3em;
+}
+.navbar-collapse {
+    background-color: #363638;
+    margin-top: -6px;
+    margin-left: -4px;
+}
+/* .logo-git {
+    height: 2.7em;
+    margin-left: 20px;
+}
+.logo-gmail {
+    height: 2.6em;
+    margin-left: 20px;
+}
+.logo-git .logo-gmail :hover {
+    transform: scale(1.08);
+} */
+.login {
+    margin-left: 40px;
+    margin-top: 4px;
+}
+.login:hover {
+
+    color: white;
+}
+.nav-item {
+    color: white;
+    margin-left: 11px;
+    margin-right: 11px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.nav-item:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 980px) {
+    .nav-item {
+        margin-bottom: 20px;
+        font-size: 30px;
+        width: 100vw;
+    }
+    .navbar {
+        height: fit-content;
+        
+    }
+}

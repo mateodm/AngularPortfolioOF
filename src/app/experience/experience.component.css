@@ -1,0 +1,86 @@
+.body {
+    background: #2e3439;
+    height: auto;
+}
+.experience-title {
+    width: 100vw;
+    height: auto;
+    background-color: #2e3439;
+    color: white;
+}
+.text {
+    font-family: 'Righteous';
+    font-size: 40px;
+}
+.text-circle {
+    font-family: 'Righteous';
+    font-size: 20px;
+    margin-left: 12px;
+}
+.hr {
+    display: grid;
+    align-items: center;
+    border-color: white;
+    color: white;
+}
+.proyects {
+    display: grid;
+    justify-content: center;
+    height: auto;
+    background-color: #2e3439;
+    padding-bottom: 30px;
+}
+.proyects-img {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 33vh;
+    border: solid white;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+}
+.centrado{
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contenedor:hover .centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 25vw;
+    height: 33vh;
+}
+
+@media (max-width: 760px) {
+    .text-circle {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .proyects-img {
+        width: 500px;
+        margin-top: 20px;
+    }
+    .contenedor:hover .centrado {
+        width: 500px;
+        height: 305px;
+    }
+}
+@media only screen and (min-width: 761px) and (max-width: 1600px) {
+    .text-circle {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .text {
+        font-size: 35px;
+    }
+}
