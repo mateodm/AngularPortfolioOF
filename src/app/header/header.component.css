@@ -4,8 +4,10 @@ header {
     opacity: 1;
 }
 .navbar { 
-    height: 13vh;
+    height: 11vh;
     width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .navbar-nav {
     margin-left: auto;
@@ -35,9 +37,9 @@ header {
 } */
 .nav-item {
     color: white;
+    margin-top: 10px;
     margin-left: 11px;
     margin-right: 11px;
-    justify-content: space-between;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
 }
@@ -57,6 +59,7 @@ header {
     }
     .logo-ap {
         height: 90px;
-        margin-right: 23vw;
+        display: flex;
+        margin-right: auto;
     }
 }

@@ -1,6 +1,10 @@
 .body {
     background: #2e3439;
-    height: auto;
+    height: fit-content;
+    margin: 0px;
+}
+.experience {
+    width: 100vw;
 }
 .experience-title {
     width: 100vw;
@@ -59,10 +63,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #2e3439;
+    font-family: 'Righteous';
     color: white;
     width: 22vw;
-    height: 33vh;
+}
+.arreglo {
+    padding-right: 0px !important;
+    margin: auto;;
 }
 @media (max-width: 760px) {
     .contenedor {

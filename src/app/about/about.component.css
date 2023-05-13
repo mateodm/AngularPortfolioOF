@@ -6,7 +6,7 @@
     margin-left: 0px;
     background-image: url("../../assets/imgimportant/banner.png");
     background-size: auto;
-    width: 100.5vw;
+    width: 100vw;
     height: auto;
     background-color: #252A2E;
 }
@@ -72,11 +72,12 @@ h2 {
     opacity: 0.8;
 }
 .about-title {
-    width: 102vw;
+    width: 100vw;
     height: auto;
     background-color: #252A2E;
     color: white;
     margin-left: 0px;
+    margin-right: 0px;
 }
 .text {
     font-family: 'Righteous';
@@ -138,7 +139,7 @@ h2 {
         height: auto;
         margin-top: auto;
     }
-    .hr {
+    hr {
         width: 100vw;
     }
 }
