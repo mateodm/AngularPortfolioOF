@@ -46,6 +46,15 @@ header {
 .nav-item:hover {
     opacity: 0.9;
 }
+.sign-in {
+    text-decoration: none;
+    background-color: none;
+
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
 
 @media (max-width: 980px) {
     .nav-item {

@@ -1,0 +1,30 @@
+.background {
+    background-color: #505457;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-top: solid 1px grey;
+    display: flex;
+}
+.logos {
+}
+.img {
+    width: 7vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+}
+.experience {
+    width: 100vw;
+}
+.experience-title {
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+    height: auto;
+    color: white;
+}
+.text {
+    font-family: 'Righteous';
+    font-size: 40px;
+}

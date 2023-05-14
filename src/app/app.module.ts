@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import {HttpClientModule} from "@angular/common/http";
+import { IndexComponent } from './index/index.component';
+import { SignInComponent } from './sign-in/sign-in.component'; 
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     FooterComponent,
     AboutComponent,
     ExperienceComponent,
+    IndexComponent,
+    SignInComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
