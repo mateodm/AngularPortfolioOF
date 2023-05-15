@@ -1,3 +1,4 @@
+import { Token } from '../service/token';
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router"
 @Component({
@@ -6,9 +7,15 @@ import { Router } from "@angular/router"
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit{
-  constructor(private router: Router) {
+  isLogged = false
+  constructor(private router: Router, private token: Token) {
   }
-  ngOnInit(): void {}
+  ngOnInit(): void { if (this.token.getToken()) { this.isLogged = true; } else { this.isLogged = false} 
+}
+onLogOut():void {
+  this.token.closeSession();
+  window.location.reload()
+}
   signin() {
     this.router.navigate(["/sign-in"])
   }

@@ -19,7 +19,8 @@
                     <a style="text-decoration: none; color: white;;"href="#proyectos"> Mis proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sign-in" (click)="signin()">Iniciar sesion</a>
+                    <a class="sign-in"  (click)="onLogOut()" *ngIf="isLogged">Cerrar sesion</a>
+                    <a class="sign-in"  (click)="signin()" *ngIf="!isLogged">Iniciar sesion</a>
                 </li>
             </ul>
         </div>
